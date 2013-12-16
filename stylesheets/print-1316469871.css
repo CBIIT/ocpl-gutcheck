@@ -1,0 +1,10 @@
+nav,
+#videos { display: none !important; }
+#facts { margin-right: 13px; }
+#sidebar { border: 1px solid #333; }
+.extras a.item { overflow: visible; }
+.extras a.item:after {
+  content: attr(href);
+  display: block;
+  clear: both;
+}
