@@ -750,11 +750,11 @@ nav {
   overflow: hidden;
   font-size: 14px;
   line-height: 18px;
-  margin: 0px 0px 20px 100px; }
+  margin: 0px 0px 20px 0px; }
   #stats dl {
     float: left;
-    width: 176px;
-    margin-right: 25px; }
+    width: 165px;
+    margin-right: 20px; }
   #stats dl:last-child {
     margin-right: 0; }
   #stats dt {
@@ -968,7 +968,7 @@ nav {
   #main .question h2 {
     clear: left; 
 }
-/* mini banner */
+/* minibanner */
 .minibanner-red {
 background: #a90101;
 }
@@ -979,7 +979,7 @@ background: #fff;
 background: #707070;
 }
 .minibanner-gradient {
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gradient.gif) repeat-x;
+background: url(/images/minibanner-gradient.gif) repeat-x;
 }
 .minibanner-red ul li.nci a,
 .minibanner-white ul li.nci a,
@@ -1032,16 +1032,16 @@ margin-left: 10px;
 text-indent: -9999px;
 }
 .minibanner-red li.nci{
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-red-nci.gif) no-repeat;
+background: url(../images/minibanner-red-nci.gif) no-repeat;
 }
 .minibanner-white li.nci{
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-white-nci.gif) no-repeat;
+background: url(../images/minibanner-white-nci.gif) no-repeat;
 }
 .minibanner-gray li.nci{
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gray-nci.gif) no-repeat;
+background: url(../images/minibanner-gray-nci.gif) no-repeat;
 }
 .minibanner-gradient li.nci{
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gradient-nci.gif) no-repeat;
+background: url(../images/minibanner-gradient-nci.gif) no-repeat;
 }
 .minibanner-red li.nih,
 .minibanner-white li.nih,
@@ -1053,16 +1053,16 @@ float: right;
 text-indent: -9999px;
 }
 .minibanner-red li.nih {
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-red-nih.gif) no-repeat;
+background: url(../images/minibanner-red-nih.gif) no-repeat;
 }
 .minibanner-white li.nih {
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-white-nih.gif) no-repeat;
+background: url(../images/minibanner-white-nih.gif) no-repeat;
 }
 .minibanner-gray li.nih {
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gray-nih.gif) no-repeat;
+background: url(../images/minibanner-gray-nih.gif) no-repeat;
 }
 .minibanner-gradient li.nih {
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gradient-nih.gif) no-repeat;
+background: url(../images/minibanner-gradient-nih.gif) no-repeat;
 }
 .minibanner-red li.cancergov,
 .minibanner-white li.cancergov,
@@ -1075,16 +1075,16 @@ margin-right: 10px;
 text-indent: -9999px;
 }
 .minibanner-red li.cancergov {
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-red-cancergov.gif) no-repeat;
+background: url(../images/minibanner-red-cancergov.gif) no-repeat;
 }
 .minibanner-white li.cancergov {
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-white-cancergov.gif) no-repeat;
+background: url(../images/minibanner-white-cancergov.gif) no-repeat;
 }
 .minibanner-gray li.cancergov {
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gray-cancergov.gif) no-repeat;
+background: url(../images/minibanner-gray-cancergov.gif) no-repeat;
 }
 .minibanner-gradient li.cancergov {
-background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gradient-cancergov.gif) no-repeat;
+background: url(../images/minibanner-gradient-cancergov.gif) no-repeat;
 }
 
 /* Localized */
