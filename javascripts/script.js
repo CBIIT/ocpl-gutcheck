@@ -11,9 +11,9 @@ GutCheck = {
   init: function() {
     this.Nav.init();
     this.Homepage.init();
-    this.Lightboxes.init();
+/*    this.Lightboxes.init();   (remove popup exit notification)*/
+/*    this.Survey();   (remove logic for survery) */
     this.SiteControls.init();
-    this.Survey();
     return this.YouTube.init();
   }
 };
@@ -199,6 +199,7 @@ GutCheck.Homepage = {
     return $(document).trigger('homepage.imageScroll.complete');
   }
 };
+/*  start logic for exit nofitication and survey 
 GutCheck.defaultLightboxOptions = {
   modal: true,
   position: 'center',
@@ -307,7 +308,8 @@ GutCheck.Lightboxes = {
       }, 2000);
     });
   }
-};
+}; 
+*/
 GutCheck.Nav = {
   init: function() {
     var desc_items, items;
