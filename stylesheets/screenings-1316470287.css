@@ -609,13 +609,17 @@ nav {
   font-weight: normal; }
 
 #videos {
-  margin: 0 -15px 24px;
-  padding: 15px;
-  background: #999;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#737373), to(#333333));
+  margin: 15px 150px 15px 150px;
+  padding: 15px 5px 10px 5px;
+  background: #dddddd;
+/**  background-image: -webkit-gradient(linear, left top, left bottom, from(#737373), to(#333333)); **/
   overflow: hidden;
-  height: 460px;
-  position: relative; }
+  height: 430px;
+  position: relative; 
+  width:640px;
+  font-size:12px
+  line-height:normal
+  }
   #videos h2 {
     background: #fff;
     margin: -15px -15px 15px;
