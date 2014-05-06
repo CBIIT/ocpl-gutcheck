@@ -631,7 +631,11 @@ nav {
   width: 640px;
   background: #dddddd;
   margin: 1% 15% 0;
+}
 
+#videosplaylist p{
+  padding: 10px;
+  font-weight:bold;
 }
 #videocaption
 {
