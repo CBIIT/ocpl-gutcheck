@@ -609,23 +609,38 @@ nav {
   font-weight: normal; }
 
 #videos {
-  margin: 15px 150px 15px 150px;
-  padding: 15px 5px 10px 5px;
-  background: #dddddd;
-/**  background-image: -webkit-gradient(linear, left top, left bottom, from(#737373), to(#333333)); **/
-  overflow: hidden;
-  height: 430px;
+  margin: 10px 0px 45px 0px;
   position: relative; 
-  width:640px;
-  font-size:12px
-  line-height:normal
+  font-size:12px;
+  line-height:normal;
+   /** background: #dddddd; **/
+  /**  background-image: -webkit-gradient(linear, left top, left bottom, from(#737373), to(#333333)); **/
+  /**  overflow: hidden; **/
+  /**  height: 430px; **/
+ /** width:640px; **/
   }
   #videos h2 {
-    background: #fff;
+/**    background: #fff; 
     margin: -15px -15px 15px;
-    padding-left: 15px;
+    padding-left: 15px; **/
     height: 30px;
-    border-bottom: none; }
+/**    border-bottom: none; **/
+} 
+#videosplaylist
+{
+  width: 640px;
+  background: #dddddd;
+  margin: 1% 15% 0;
+
+}
+#videocaption
+{
+  text-align: right;
+  padding: 5px;
+  height: 35px;
+  font-size:12px;
+  line-height:initial;
+  }
   #videos .featured {
     width: 640px;
     height: 360px;
