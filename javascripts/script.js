@@ -10,14 +10,14 @@ var __hasProp = Object.prototype.hasOwnProperty, __extends = function(child, par
 GutCheck = {
   init: function() {
     this.Nav.init();
-/*    this.Homepage.init();  (remove controls used to setup playlist for gut check  */
+    this.Homepage.init();
 /*    this.Lightboxes.init();   (remove popup exit notification)*/
 /*    this.Survey();   (remove logic for survery) */
-     this.SiteControls.init();   
-/*    return this.YouTube.init();   (calling playlist direct from youtube) */
+    this.SiteControls.init();
+    return this.YouTube.init();
   }
 };
-/* GutCheck.Video = (function() {
+GutCheck.Video = (function() {
   function Video(container, options) {
     this.container = container;
     this.id = $(container).attr('data-youtubeid');
@@ -172,7 +172,7 @@ GutCheck.YouTube = (function() {
   return {
     init: init
   };
-})(); */
+})();
 GutCheck.SiteControls = {
   init: function() {
     return $('.print').click(function(e) {
@@ -181,7 +181,7 @@ GutCheck.SiteControls = {
     });
   }
 };
-/* GutCheck.Homepage = {
+GutCheck.Homepage = {
   init: function() {
     var vid;
     vid = new GutCheck.Video($('#main .video')[0], {
@@ -198,7 +198,7 @@ GutCheck.SiteControls = {
     });
     return $(document).trigger('homepage.imageScroll.complete');
   }
-}; */
+};
 /*  start logic for exit nofitication and survey 
 GutCheck.defaultLightboxOptions = {
   modal: true,
