@@ -67,7 +67,7 @@ GutCheck.Video = (function() {
       }
       return _results;
     })()).join("&amp;");
-    return swfobject.embedSWF("http://www.youtube.com/e/" + this.id + "?" + attsString, this.videoId, this.width, this.height, "10", null, null, params, atts);
+    return swfobject.embedSWF("https://www.youtube.com/e/" + this.id + "?" + attsString, this.videoId, this.width, this.height, "10", null, null, params, atts);
   };
   return Video;
 })();
@@ -296,7 +296,7 @@ GutCheck.Lightboxes = {
       location = this.href;
       externalLinkLBContent = $(externalLinkLBTemplate.replace(/:location/g, location));
       externalLinkLightbox = externalLinkLBContent.dialog(GutCheck.defaultLightboxOptions);
-      externalLinkLightbox.dialog('option', 'title', 'You are now leaving gutcheck.nci.nih.gov');
+      externalLinkLightbox.dialog('option', 'title', 'You are now leaving gutcheck.cancer.gov');
       externalLinkLightbox.dialog('open');
       return setTimeout(function() {
         var newWin;
