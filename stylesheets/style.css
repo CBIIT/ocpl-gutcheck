@@ -138,6 +138,12 @@ a:hover { color: #036; }
 }
 
 /* minibanner */
+.minibanner {
+	margin-top: 5px;
+}
+.minibanner a:hover {
+	border-bottom: none;
+}
 .minibanner-red {
 background: #a90101;
 }
